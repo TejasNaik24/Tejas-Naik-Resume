@@ -1,16 +1,22 @@
 # 📄 My Resume (LaTeX)
 
-My professional resume built using LaTeX. It includes sections on education, experience, projects, and technical skills.
+My professional resume built using LaTeX. It highlights my background in computer engineering and showcases my experience, projects, and technical skills across software development, AI/ML, and web technologies.
 
----
+## Overview
 
-## 📄 Resume Structure
+### Features
+
+- Clean and modern design.  
+- Easy to customize and tailor for different job applications.  
+- Sections for technical skills, work experience, projects, and education.  
+- Structured layout to emphasize key information. 
+
+## Resume Structure
 
 - Education
 - Experience
 - Projects
 - Technical Skills
 
----
 
 **Last updated: July 2025**
