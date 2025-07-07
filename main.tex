@@ -1,0 +1,187 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.15in}
+ \addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Tejas Naik} \\[2mm]
+    \footnotesize \raisebox{-0.1\height}
+    \faPhone\ \underline{(614) 551-6795} ~ 
+    {\faEnvelope\  \underline{naik.tejas11@gmail.com}} ~ 
+    {\faLinkedin\ \underline{\href{https://linkedin.com/in/tejas-naik2028}{linkedin.com/in/tejas-naik}}  ~
+    {\faGithub\ \underline{\href{https://github.com/TejasNaik24}{github.com/tejas-naik}} ~
+    {\faBriefcase\ \underline{\href{https://tejasnaik.net}{tejasnaik.net}}
+    \vspace{-8pt}
+\end{center}
+
+ %-----------EDUCATION-----------
+\section{Education} \\[1mm]
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The Ohio State University}{May 2027}
+      {Bachelor of Computer Engineering | Minors: Business, Robotics \& Autonomous Systems
+      }{Columbus, Ohio}
+  \resumeSubHeadingListEnd
+    \resumeItemListStart
+        \vspace{-7pt}
+        \resumeItem {Courses: Computing in C++}
+    \resumeItemListEnd
+    \vspace{-12pt}
+%-----------Experience---------------
+\section{Experience}
+    \resumeSubHeadingListStart
+                \resumeSubheading{Create \& Learn}{Jun 2025 -- Present}{Computer Science Instructor}{Palo Alto, California -- Remote} 
+                \resumeItemListStart
+                    \resumeItem{Taught live, project-based \textbf{computer science classes} via Zoom to K–12 students across varying skill levels, focusing on core \textbf{Python} programming concepts and real-world applications of \textbf{artificial intelligence} and \textbf{machine learning}, including chatbot logic, data structures, and beginner \textbf{neural networks}.}
+                    \resumeItem{Guided students through hands-on projects using tools like \textbf{Scratch}, \textbf{Trinket}, and \textbf{Colab}, breaking down technical concepts through visuals, interactive activities, and scaffolded challenges.}
+                    \resumeItem{Adapted lessons in real time to suit different age groups and learning styles, using breakout rooms, collaborative coding, and frequent Q\&A to encourage active participation and peer learning.}
+                    \resumeItem{Worked closely with fellow instructors and curriculum developers to improve course materials, ensuring lessons remained technically accurate, engaging, and aligned with current industry and educational standards.}
+                    \resumeItemListEnd
+            \resumeSubheading{Istart Valley}{Jun 2023 -- Nov 2023}{Engineering Intern}{Dublin, OH} 
+                \resumeItemListStart
+                    \resumeItem{\textbf{Designed and prototyped} a fitness coaching app concept called \textbf{Efit Coach}, integrating user feedback, visual design principles, and iterative prototyping tools to create an intuitive and goal-oriented user experience aligned with real-world engineering and design practices.}
+                    \resumeItem{\textbf{Collected, organized, and analyzed survey data} from over 100 potential users to understand pain points and feature preferences, then translated those findings into actionable insights that directly informed core features, layout, and target demographics.}
+                    \resumeItem{\textbf{Conducted extensive market research} on 50+ fitness and wellness apps by reviewing App Store/Play Store feedback, in-app flows, and monetization strategies to identify competitive features, design gaps, and innovation opportunities to strengthen the value proposition of our product.}
+                    \resumeItem{\textbf{Collaborated in weekly technical workshops} led by industry mentors and attended team sprint reviews to learn about agile development, wireframing, ideation, MVP planning, and the fundamentals of product-market fit in software projects.}
+                    \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{Projects} 
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+            {\textbf{{Tennis-Coach-AI}} $|$ \emph{\href{https://tennis-coach-ai.vercel.app}{Website}{ $|$ }\href{https://github.com/TejasNaik24/Tennis-Coach-AI}{Source Code}}}{ReactJS $|$ TypeScript $|$ HTML $|$ Python $|$ CSS}
+            \\[5mm]
+          \resumeItemListStart
+            \resumeItem{Developed a voice-enabled virtual tennis assistant with \textbf{React}, \textbf{TypeScript}, and \textbf{Python Flask backend}, integrating \textbf{React speech recognition} and the \textbf{Hugging Face Mistral model} for real-time conversational coaching.}
+            \resumeItem{\textbf{Dockerized} the \textbf{full-stack app} for portability and secure \textbf{API key} management, combining modern \textbf{web development}, speech technology, and \textbf{AI language} modeling.}
+          \resumeItemListEnd
+ \vspace{-20pt}
+ \resumeProjectHeading
+            {\textbf{{HyperNova-Strike}} $|$ \emph{\href{https://hypernova-strike.vercel.app}{Website}{ $|$ }\href{https://github.com/TejasNaik24/HyperNova-Strike}{Source Code}}}{HTML $|$ CSS $|$ JavaScript}
+            \\[5mm]
+          \resumeItemListStart
+            \resumeItem{Built a fast-paced space shooter game using \textbf{HTML}, \textbf{CSS}, and \textbf{JavaScript} with \textbf{OOP} to create modular, scalable game components and dynamic gameplay on an \textbf{HTML5 canvas}.}
+            \resumeItem{Designed custom pixel art, smooth \textbf{CSS animations}, and interactive menus with background music controlled via \textbf{JavaScript} to enhance player engagement.}
+          \resumeItemListEnd
+ \vspace{-17pt}
+ \resumeProjectHeading
+{\textbf{{Neural Network From Scratch}} $|$ \emph{\href{https://drive.google.com/file/d/1YpVzB6VQXRyj1WNqQmXgUmp_3Y6uaZax/view?usp=sharing}{Demo}{ $|$ }\href{https://github.com/TejasNaik24/NeuralNetwork-From-Scratch}{Source Code}}}{Python $|$ Numpy}
+\\[5mm]
+\resumeItemListStart
+\resumeItem{Built a \textbf{feedforward neural network} in \textbf{Python} and \textbf{NumPy}, trained on the \textbf{XOR dataset} using \textbf{forward/backpropagation} with \textbf{binary cross-entropy loss}, applying \textbf{OOP} for modular code and \textbf{sigmoid activation} for \textbf{binary input prediction}.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+\vspace{-17pt}
+  %-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{   
+     \textbf{Languages}{: Python, C++, HTML5, JavaScript, TypeScript, Swift} \\[1mm]
+     \textbf{Libraries/Frameworks}{: PyTorch, Numpy, Pandas, CSS, TailwindCSS, NodeJS, ReactJS, VueJS} \\ [1mm]
+     \textbf{Developer Tools}{: Git, Docker, PostMan} \\[1mm]
+
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+ \vspace{3pt}
+\vspace{10pt}
+
+\vspace{-15pt}
+
+
+
+\end{document}
