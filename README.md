@@ -8,7 +8,7 @@ My professional resume built using LaTeX. It highlights my background in compute
 
 - Clean and modern design.  
 - Easy to customize and tailor for different job applications.  
-- Sections for technical skills, work experience, projects, and education.  
+- Sections for technical skills, experience, projects, and education.  
 - Structured layout to emphasize key information. 
 
 ## Resume Structure
