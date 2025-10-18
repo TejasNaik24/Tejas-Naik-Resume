@@ -20,4 +20,4 @@ My professional resume built using LaTeX. It highlights my background in compute
 
 ---
 
-**Last updated: September 2025**
+**Last updated: October 2025**
