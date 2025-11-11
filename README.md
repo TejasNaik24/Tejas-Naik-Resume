@@ -16,6 +16,7 @@ My professional resume built using LaTeX. It highlights my background in compute
 - Education
 - Experience
 - Projects
+- Publications
 - Technical Skills
 
 ---
