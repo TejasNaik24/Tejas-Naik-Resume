@@ -32,4 +32,5 @@ This repository maintains two separate documents:
 - **Industry Resume** – Concise resume focused on engineering experience, AI/ML projects, and technical skills for industry roles.
 
 **Last Updated CV Resume: March 2026**
+
 **Last Updated Industry Resume: March 2026**
