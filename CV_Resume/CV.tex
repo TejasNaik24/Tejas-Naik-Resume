@@ -1,0 +1,243 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\usepackage[margin=1.4cm]{geometry}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.15in}
+ \addtolength{\textwidth}{0.3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}\vspace{0pt}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Large \scshape Tejas Naik} \\[2mm]
+    \footnotesize \raisebox{-0.1\height}
+    {\faEnvelope\ \underline{naik.136@buckeyemail.osu.edu}} ~
+    {\faBriefcase\ \underline{\href{https://tejasnaik.net}{tejasnaik.net}}} ~
+    {\faGraduationCap\ \underline{\href{https://scholar.google.com/citations?hl=en&user=M_OhGPAAAAAJ}{Google Scholar}}} ~
+    {\faGithub\ \underline{\href{https://github.com/TejasNaik24}{github.com/TejasNaik24}}} ~
+    {\faLinkedin\ \underline{\href{https://linkedin.com/in/tejas-naik2028}{linkedin.com/in/tejas-naik2028}}}
+
+    
+    \vspace{-8pt}
+\end{center}
+
+ %-----------EDUCATION-----------
+\section{Education} \\[1mm]
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The Ohio State University}{Expected May 2028}
+      {Bachelor of Science in Computer Engineering
+ | Minor: Robotics \& Autonomous Systems
+      }{Columbus, Ohio}
+  \resumeSubHeadingListEnd
+    \resumeItemListStart
+        \vspace{-12pt}
+        \resumeItem {Relevant Coursework: Applied Machine Learning, Data Structures \& Algorithms, Computer Design}
+    \resumeItemListEnd
+    \vspace{-12pt}
+
+
+
+%-----------Publications---------------
+\section{Publications}
+\resumeSubHeadingListStart
+  \item \small{
+    \textbf{BeetleFlow: An Integrative Deep Learning Pipeline for Beetle Image Processing}. \emph{NeurIPS Imageomics Workshop}, 2025. \\
+    Fangxun Liu*, S. M. Rayeed*, Samuel Stevens, Alyson East, Cheng Hsuan Chiang, Colin Lee, Daniel Yi, Junke Yang, \textbf{Tejas Naik}, Ziyi Wang, Connor Kilrain, Elijah H. Buckwalter, Jiacheng Hou, Saul Ibaven Bueno, Shuheng Wang, Xinyue Ma, Yifan Liu, Zhiyuan Tao, Ziheng Zhang, Eric Sokol, Michael Belitz, Sydne Record, Charles V. Stewart, Wei-Lun Chao. \\
+    \href{https://openreview.net/pdf?id=sBUl8YC5Bg}{Paper}
+  }
+
+    \resumeSubHeadingListEnd
+    \vspace{-12pt}
+
+%-----------Research Experience---------------
+\section{Research Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Nationwide Children's Hospital}{Mar 2026 -- Present}
+{AI Research Intern, Intelligent Futures Research Lab (Advisor: Dr. Emre Sezgin)}{Columbus, Ohio}
+\resumeItemListStart
+\resumeItem{Conducting applied AI research on machine learning systems and data-driven modeling within enterprise insurance applications.}
+\resumeItemListEnd
+
+\resumeSubheading
+{The Ohio State University}{Jan 2026 -- Present}
+{LLM / NLP Researcher (Advisor: Prof. Kumar Sachin)}{Columbus, Ohio}
+\resumeItemListStart
+\resumeItem{Conducting research on large language models and multimodal transformer architectures under Prof. Sachin Kumar using PyTorch and the Hugging Face ecosystem.}
+\resumeItem{Reproducing and evaluating Vision Transformer–based models for the DRIP project, analyzing efficiency–performance tradeoffs on ImageNet benchmarks using metrics including accuracy, GFLOPs, and memory usage.}
+\resumeItem{Studying multimodal model architectures integrating vision encoders with language models (e.g., CLIP, LLaVA) to understand scalable vision–language pipelines.}
+\resumeItemListEnd
+
+\resumeSubheading
+{The Ohio State University}{Aug 2025 -- Present}
+{Computer Vision Researcher (Advisor: Prof. Wei-Lun Chao)}{Columbus, Ohio}
+\resumeItemListStart
+\resumeItem{Conducted deep learning research in computer vision under Prof. Wei-Lun Chao, developing models for object detection and image segmentation using PyTorch.}
+\resumeItem{Designed multi-model segmentation pipelines integrating YOLOv8, Grounding DINO, and SAM2 to enable high-precision object localization and region analysis.}
+\resumeItem{Built scalable preprocessing and annotation workflows using OpenCV, NumPy, and COCO-format datasets to support training and evaluation of vision models.}
+\resumeItem{Evaluated model performance using mAP, IoU, and Dice metrics and contributed to research resulting in a publication at the NeurIPS Imageomics Workshop.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------Industry Experience---------------
+\section{Industry Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Motorola Solutions}{Summer 2026}
+{GenAI \& ML Intern}{Chicago, Illinois}
+\resumeItemListStart
+\resumeItem{Incoming software engineering intern working on large-scale enterprise systems and distributed infrastructure.}
+\resumeItem{Details to be updated upon internship start.}
+\resumeItemListEnd
+
+\resumeSubheading{Create \& Learn}{Jun 2025 -- Present}{AI/CS Instructor}{Palo Alto, CA -- Remote} 
+\resumeItemListStart
+\resumeItem{Designed and delivered project-based curricula teaching Python, AI fundamentals, and machine learning concepts to K--12 students through interactive coding lessons.}
+\resumeItem{Developed hands-on learning modules using Google Colab, Scratch, and guided notebooks to reinforce computational thinking and practical AI skills.}
+\resumeItem{Mentored students through debugging, algorithm design, and project development while providing real-time feedback to support different learning styles.}
+\resumeItemListEnd
+
+\resumeSubheading{Live150}{Jul 2025 -- Dec 2025}{AI Intern}{Piscataway, NJ -- Remote} 
+\resumeItemListStart
+\resumeItem{Architected and deployed conversational AI agents using Google’s Agent Development Kit (ADK) and Gemini 2.5 Flash models to enable contextual, domain-aware dialogue systems.}
+\resumeItem{Built production REST APIs with FastAPI and Python for B2B integration, implementing authentication, session management, and conversation memory backed by SQLite.}
+\resumeItem{Developed multi-agent workflows and custom API endpoints to orchestrate agent interactions and integrate real-time data sources for personalized conversational features.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+            {\textbf{Neural Network From Scratch} $|$ \emph{\href{https://neural-network-from-scratch.streamlit.app/}{Website} $|$ \href{https://github.com/TejasNaik24/NeuralNetwork-From-Scratch}{Source Code}}}{Python $|$ NumPy $|$ Streamlit}
+            \\[5mm]
+          \resumeItemListStart
+            \resumeItem{Implemented a modular OOP feedforward neural network in Python/NumPy with forward and backpropagation (sigmoid activation, binary cross-entropy), trained on the XOR dataset to demonstrate learning fundamentals.}
+            \resumeItem{Deployed an interactive Streamlit demo for live inputs and visualization of training and predictions, emphasizing reproducibility and clear math-to-code mapping.}
+          \resumeItemListEnd
+    \vspace{-17pt}
+
+    \resumeProjectHeading
+        {\textbf{NFL Playoff Predictor} $|$ \emph{\href{https://nfl-predictor28.streamlit.app}{Website} $|$ \href{https://github.com/TejasNaik24/NFL-Predictor}{Source Code}}}{Python $|$ Scikit-Learn $|$ Streamlit}
+    \\[5mm]
+        \resumeItemListStart
+            \resumeItem{Built an end-to-end ML system that predicts NFL playoff brackets using a dual-model architecture (qualification + head-to-head playoff simulation) with Random Forest classifiers.}
+            \resumeItem{Automated data collection from nflverse (nflreadpy) and engineered 15+ features (Elo ratings, turnover margins, point differentials, rolling averages); evaluated models via accuracy and calibration analyses and feature importance.}
+            \resumeItem{Provided an interactive Streamlit frontend with full-bracket visualization, AutoML and Manual prediction modes, and exported model bundles for fast inference.}
+        \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%-----------Technical Skills-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C/C++, JavaScript, TypeScript, Java} \\[1mm]
+     
+     \textbf{Machine Learning / AI}{: PyTorch, TensorFlow, Scikit-learn, Hugging Face Transformers} \\[1mm]
+     
+     \textbf{Data \& Scientific Computing}{: NumPy, Pandas, OpenCV} \\[1mm]
+     
+     \textbf{Frameworks \& Tools}{: Streamlit, React, Next.js, Git, Docker, Postman}
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+\end{document}
